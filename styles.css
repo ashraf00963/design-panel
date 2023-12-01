@@ -1,0 +1,87 @@
+body{
+    margin: 0 10%;
+    padding: 0;
+    font-family: cursive;
+    background-color: rgb(122, 110, 110);
+    color: white;
+}
+
+
+h1{
+    padding: 10px;
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+@keyframes colorChange{
+    0% {
+        background-color: #ff5733; /* Start color */
+    }
+    10% {
+        background-color: #33ff57; /* Second color */
+    }
+    20% {
+        background-color: #5733ff; /* Third color */
+    }
+    30% {
+        background-color: #ffbd33; /* Fourth color */
+    }
+    40% {
+        background-color: #33aaff; /* Fifth color */
+    }
+    /* Add more keyframes and colors as needed */
+    50% {
+        background-color: #ff5733; /* Repeat some colors for variation */
+    }
+    60% {
+        background-color: #33ff57;
+    }
+    70% {
+        background-color: #5733ff;
+    }
+    80% {
+        background-color: #ffbd33;
+    }
+    90% {
+        background-color: #33aaff;
+    }
+    100% {
+        background-color: #ff5733; /* End color (same as start for a smooth loop) */
+    }
+}
+
+.container {
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 10px auto;
+    animation: colorChange 30s infinite;
+}
+
+.color-container{
+    width: 100%;
+}
+
+.color-panel{
+    display: inline-block;
+    width: 32%;
+    min-height: 100px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.green{
+    background-color: green;
+}
