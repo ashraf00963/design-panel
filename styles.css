@@ -2,8 +2,7 @@ body{
     margin: 0 10%;
     padding: 0;
     font-family: cursive;
-    background-color: rgb(122, 110, 110);
-    color: white;
+    background-color: rgba(176, 177, 177, 0.452);
 }
 
 
@@ -55,7 +54,8 @@ h1{
     border: 2px solid gray;
     padding: 10px;
     margin: 10px auto;
-    animation: colorChange 30s infinite;
+    font-size: 20px;
+    border-radius: 5px;
 }
 
 .color-container{
@@ -84,4 +84,26 @@ h1{
 
 .green{
     background-color: green;
+}
+
+.font-container{
+    display: inline-block;
+    width: 45%;
+    min-height: 100px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.serif {
+    font-family: serif;
+    font-size: 16px;
+}
+
+.sans-serif{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.cursive {
+    font-size: 16px;
 }
